@@ -1,3 +1,5 @@
+package test;
+
 import test.Hello;
 
 import javax.naming.Context;
