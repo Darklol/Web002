@@ -7,50 +7,53 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>WebLab2</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>WebLab2</title>
+<link rel="stylesheet" href="css/main.css">
+<%--<script src="js/jquery.js"></script>--%>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/home_page.js"></script>
+<script src="js/graphics.js"></script>
 </head>
-<input>
 <jsp:include page="partial/header.jsp"/>
-<input id="data-form" method="get" name="dataForm">
-<%--    X part--%>
-<div>
+<form id="data-form" method="get" name="dataForm">
+    <%--    X part--%>
     <div>
-        <label>X value:</label>
+        <div>
+            <label>X value:</label>
+        </div>
+        <%--There need css for class "X-button" and "active"--%>
+        <button type="button" class="X-button" name="x-value">-5</button>
+        <button type="button" class="X-button" name="x-value">-4</button>
+        <button type="button" class="X-button" name="x-value">-3</button>
+        <button type="button" class="X-button" name="x-value">-2</button>
+        <button type="button" class="X-button" name="x-value">-1</button>
+        <button type="button" class="X-button" name="x-value">0</button>
+        <button type="button" class="X-button" name="x-value">1</button>
+        <button type="button" class="X-button" name="x-value">2</button>
+        <button type="button" class="X-button" name="x-value">3</button>
     </div>
-    <button type="button" name="x-value">-5</button>
-    <button type="button" name="x-value">-4</button>
-    <button type="button" name="x-value">-3</button>
-    <button type="button" name="x-value">-2</button>
-    <button type="button" name="x-value">-1</button>
-    <button type="button" name="x-value">0</button>
-    <button type="button" name="x-value">1</button>
-    <button type="button" name="x-value">2</button>
-    <button type="button" name="x-value">3</button>
-</div>
-<%--    Y part--%>
-<div>
+    <%--    Y part--%>
     <div>
-        <label>Y value:</label>
+        <div>
+            <label>Y value:</label>
+        </div>
+        <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
     </div>
-    <input type="text" placeholder="(-3,3)" maxlength="16" name="y-value">
-</div>
-<%--    R part--%>
-<div>
+    <%--    R part--%>
     <div>
-        <label>R value:</label>
+        <div>
+            <label>R value:</label>
+        </div>
+        <select id="r-value">
+            <option selected>1</option>
+            <option>1.5</option>
+            <option>2</option>
+            <option>2.5</option>
+            <option>3</option>
+        </select>
     </div>
-    <select name="r-value">
-        <option selected>1</option>
-        <option>1.5</option>
-        <option>2</option>
-        <option>2.5</option>
-        <option>3</option>
-    </select>
-</div>
 
-<input type="submit">Submit</input>
+    <input id="submit-button" type="submit" value="Submit">
 </form>
 </body>
 </html>
