@@ -5,6 +5,7 @@
   Time: 12:11
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <title>WebLab2</title>
@@ -54,6 +55,30 @@
     </div>
 
     <input id="submit-button" type="submit" value="Submit">
+        <div class="table">
+            <div class="table-header">
+                <div>X</div>
+                <div>Y</div>
+                <div>R</div>
+                <div>Current time</div>
+                <div>Result</div>
+            </div>
+            <div class="table-content">
+                <jsp:useBean id="qss" scope="session" class="models.QueryStorageService"/>
+                ${qss.updateStatuses()}
+                <c:forEach var="query" items="${qss.queries}">
+                    <div class="table-row">
+                        <div>${query.x}</div>
+                        <div>${query.y}</div>
+                        <div>${query.r}</div>
+                        <div>${qss.dateFormat.format(query.queryTime)}</div>
+                            ${query.result ? "<div style=\"color: green\">In the area</div>" :
+                                    "<div style=\"color: red\">Outside the area</div>"}
+                    </div>
+                </c:forEach>
+            </div>
+        </div>
+
 </form>
 </body>
 </html>
