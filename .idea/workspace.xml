@@ -25,13 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/partial/graphics.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/home_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -72,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/partial" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\partial" />
       <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
       <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\js" />
     </key>
@@ -194,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604217543369</updated>
       <workItem from="1604217550677" duration="5982000" />
-      <workItem from="1604541451612" duration="31254000" />
+      <workItem from="1604541451612" duration="39486000" />
     </task>
     <task id="LOCAL-00001" summary="Began to do it. I put your interface and classes to test folder.">
       <created>1604217772840</created>
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604596056253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Set some tables">
+      <created>1604640373110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604640373110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +251,8 @@
     <MESSAGE value="Began to do it. I put your interface and classes to test folder." />
     <MESSAGE value="Something new in the index" />
     <MESSAGE value="I have finished server side. Now we need some css and answer and error page. &#10;The hardest one is graphics.js and jsp, i will try to understand it later!" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have finished server side. Now we need some css and answer and error page. &#10;The hardest one is graphics.js and jsp, i will try to understand it later!" />
+    <MESSAGE value="Set some tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set some tables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1636" y="257" key="#Inspections" timestamp="1604633060093">
@@ -257,10 +263,10 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1436" y="191" width="1089" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604240856957" />
-    <state x="1578" y="103" key="CommitChangelistDialog2" timestamp="1604596054336">
+    <state x="1578" y="103" key="CommitChangelistDialog2" timestamp="1604640368386">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604596054336" />
+    <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604640368386" />
     <state x="1761" y="310" key="FileChooserDialogImpl" timestamp="1604544556260">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
