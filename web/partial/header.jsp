@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<header>
+<div id="header">
     <div id="github">
         <a href="https://github.com/Darklol/Web002">Github</a>
     </div>
@@ -7,4 +7,4 @@
         <div>Kuznetsov Alexander and Huang Siyuan P3211 Variant 4557</div>
         <div id="variant"></div>
     </div>
-</header>
+</div>

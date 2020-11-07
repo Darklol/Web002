@@ -22,7 +22,7 @@
 <form id="data-form" method="get" name="dataForm">
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
-    <div>
+    <div class="value-space">
         <div>
             <label>X value:</label>
         </div>
@@ -38,14 +38,14 @@
         <button type="button" class="X-button" name="x-value">3</button>
     </div>
     <%--    Y part--%>
-    <div>
+    <div class="value-space">
         <div>
             <label>Y value:</label>
         </div>
         <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
     </div>
     <%--    R part--%>
-    <div>
+    <div class="value-space">
         <div>
             <label>R value:</label>
         </div>

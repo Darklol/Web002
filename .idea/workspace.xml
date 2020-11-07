@@ -25,21 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86cd6f03-b042-4309-93e1-ab5ea090ec2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/jboss-ejb-client.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/test/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/test/HelloBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Web002/test/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Web002/test/HelloBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/HelloBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/jboss-ejb-client.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/partial/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/partial/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/partial/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/partial/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 21.0.0.Final">
-    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (Oracle)" nameIsGenerated="true">
+    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -201,7 +194,23 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="JBoss 21.0.0.Final" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -265,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604666697022</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I merged your changes, added a few styles and made test.html in order to see how it looks without deploying on server">
+      <created>1604764150442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604764150442</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,76 +307,95 @@
     <MESSAGE value="Set some tables" />
     <MESSAGE value="graphics.jsp is newed!!" />
     <MESSAGE value="I put data to servletContext because of our variant.And some changes i dont remember!" />
-    <option name="LAST_COMMIT_MESSAGE" value="I put data to servletContext because of our variant.And some changes i dont remember!" />
+    <MESSAGE value="I merged your changes, added a few styles and made test.html in order to see how it looks without deploying on server" />
+    <option name="LAST_COMMIT_MESSAGE" value="I merged your changes, added a few styles and made test.html in order to see how it looks without deploying on server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1636" y="257" key="#Inspections" timestamp="1604633060093">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1636" y="257" key="#Inspections/0.0.2752.1112@0.0.2752.1112" timestamp="1604633060093" />
+    <state x="499" y="10" key="#JBoss_21.0.0.Final" timestamp="1604779361376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="10" key="#JBoss_21.0.0.Final/0.0.1536.824@0.0.1536.824" timestamp="1604779361376" />
     <state x="1461" y="149" key="#Project_Structure" timestamp="1604718221138">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1461" y="149" key="#Project_Structure/0.0.2752.1112@0.0.2752.1112" timestamp="1604718221138" />
-    <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604733359536">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state x="786" y="142" width="750" height="652" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604779434644">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="786" y="142" width="750" height="652" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604779434644" />
     <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604733359536" />
-    <state x="1578" y="103" key="CommitChangelistDialog2" timestamp="1604752192367">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state x="320" y="13" key="CommitChangelistDialog2" timestamp="1604779950379">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="320" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604779950379" />
     <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192367" />
     <state x="1761" y="310" key="FileChooserDialogImpl" timestamp="1604544556260">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1761" y="310" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604544556260" />
-    <state width="562" height="261" key="GridCell.Tab.0.bottom" timestamp="1604752192462">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1604779950403">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604779950403" />
     <state width="562" height="261" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
-    <state width="562" height="261" key="GridCell.Tab.0.center" timestamp="1604752192461">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1604779950403">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604779950403" />
     <state width="562" height="261" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192461" />
-    <state width="562" height="261" key="GridCell.Tab.0.left" timestamp="1604752192461">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1604779950402">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604779950402" />
     <state width="562" height="261" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192461" />
-    <state width="562" height="261" key="GridCell.Tab.0.right" timestamp="1604752192462">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1604779950403">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604779950403" />
     <state width="562" height="261" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
-    <state width="562" height="261" key="GridCell.Tab.1.bottom" timestamp="1604752192463">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604779504939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604779504939" />
     <state width="562" height="261" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
-    <state width="562" height="261" key="GridCell.Tab.1.center" timestamp="1604752192462">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1604779504938">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604779504938" />
     <state width="562" height="261" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
-    <state width="562" height="261" key="GridCell.Tab.1.left" timestamp="1604752192462">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1604779504938">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604779504938" />
     <state width="562" height="261" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
-    <state width="562" height="261" key="GridCell.Tab.1.right" timestamp="1604752192463">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1604779504938">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604779504938" />
     <state width="562" height="261" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
-    <state width="562" height="261" key="GridCell.Tab.2.bottom" timestamp="1604752192464">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1604779504939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604779504939" />
     <state width="562" height="261" key="GridCell.Tab.2.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192464" />
-    <state width="562" height="261" key="GridCell.Tab.2.center" timestamp="1604752192463">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1604779504939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604779504939" />
     <state width="562" height="261" key="GridCell.Tab.2.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
-    <state width="562" height="261" key="GridCell.Tab.2.left" timestamp="1604752192463">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1604779504939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604779504939" />
     <state width="562" height="261" key="GridCell.Tab.2.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
-    <state width="562" height="261" key="GridCell.Tab.2.right" timestamp="1604752192463">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1604779504939">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604779504939" />
     <state width="562" height="261" key="GridCell.Tab.2.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
     <state x="1549" y="304" width="851" height="592" key="NewModule_or_Project.wizard" timestamp="1604544569306">
       <screen x="0" y="0" width="2752" height="1112" />
@@ -370,10 +405,10 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1461" y="110" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604672461928" />
-    <state x="722" y="199" key="Vcs.Push.Dialog.v2" timestamp="1604763902580">
+    <state x="722" y="199" key="Vcs.Push.Dialog.v2" timestamp="1604779906132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="199" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604763902580" />
+    <state x="722" y="199" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604779906132" />
     <state x="1573" y="268" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752131984" />
     <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604673620802">
       <screen x="0" y="0" width="2752" height="1112" />

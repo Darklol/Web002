@@ -1,23 +1,26 @@
 <html>
+<head>
 <title>WebLab2</title>
 <link rel="stylesheet" href="css/main.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/home_page.js"></script>
 <script src="js/graphics.js"></script>
 </head>
-<header>
+<body>
+<div id="header">
     <div id="github">
         <a href="https://github.com/Darklol/Web002">Github</a>
     </div>
     <div id="right-header">
         <div>Kuznetsov Alexander and Huang Siyuan P3211 Variant 4557</div>
     </div>
-</header>
+</div>
 <form id="data-form" method="get" name="dataForm">
-    <div>
+    <div class="value-space">
         <div>
             <label>X value:</label>
         </div>
+        <div class="buttons">
         <button type="button" class="X-button" name="x-value">-5</button>
         <button type="button" class="X-button" name="x-value">-4</button>
         <button type="button" class="X-button" name="x-value">-3</button>
@@ -27,14 +30,15 @@
         <button type="button" class="X-button" name="x-value">1</button>
         <button type="button" class="X-button" name="x-value">2</button>
         <button type="button" class="X-button" name="x-value">3</button>
+        </div>
     </div>
-    <div>
+    <div class="value-space">
         <div>
             <label>Y value:</label>
         </div>
         <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
     </div>
-    <div>
+    <div class="value-space">
         <div>
             <label>R value:</label>
         </div>
