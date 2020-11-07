@@ -3,6 +3,7 @@ package servlets;
 import models.Query;
 import models.QueryStorageService;
 
+import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -25,13 +26,13 @@ public class AreaCheckServlet extends HttpServlet {
         query.setResult(result);
         query.setQueryTime(currentTime);
 
-        HttpSession session = req.getSession();  //New a session to save data
+        ServletContext context = this.getServletContext();
 
-        QueryStorageService qss = (QueryStorageService) session.getAttribute("qss");
+        QueryStorageService qss = (QueryStorageService) context.getAttribute("qss");
         qss = qss == null ? new QueryStorageService() : qss;
 
         qss.addQuery(query);
-        session.setAttribute("qss", qss);
+        context.setAttribute("qss", qss);
 
         resp.sendRedirect("/answer.jsp");
     }
@@ -46,10 +47,8 @@ public class AreaCheckServlet extends HttpServlet {
         boolean thirdQuarter = x <= 0 && y <= 0;
         boolean fourthQuarter = x <= 0 && y <= 0;
         //check part
-        if (firstQuarter && (y <= -x + r/2)) return true;
-        if (thirdQuarter && (x*x + y*y <= r*r/4)) return true;
-        if (fourthQuarter && (x<=r/2) && (y>=-r)) return true;
-
-        return false;
+        return (fourthQuarter && (x<=r/2) && (y>=-r)) ||
+               (thirdQuarter && (x*x + y*y <= r*r/4)) ||
+               (firstQuarter && (y <= -x + r/2));
     }
 }

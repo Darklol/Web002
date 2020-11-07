@@ -22,6 +22,7 @@ window.onload = function () {
                     "r-value": r
                 },
                 success: function () {
+                    alert('Successfully')
                     if (getUrlContext() !== "answer.jsp") {
                         document.location.href = "answer.jsp";
                     } else {

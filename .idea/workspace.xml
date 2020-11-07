@@ -24,10 +24,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/partial/graphics.jsp" afterDir="false" />
+    <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="I put data to servletContext because of our variant.And some changes i dont remember!">
+      <change afterPath="$PROJECT_DIR$/web/js/table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/graphics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/home_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/partial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,31 +86,36 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\partial" />
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
       <recent name="C:\Users\TheHs\Documents\GitHub\Web002\src\test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\js" />
+      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\partial" />
+      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.jsp">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JBoss Server.JBoss 21.0.0.Final">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (Oracle)" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Web002:war exploded">
@@ -177,6 +189,10 @@
     <configuration name="index.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Web002_war_exploded/index.jsp">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.jsp" />
+      <item itemvalue="JBoss Server.JBoss 21.0.0.Final" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.jsp" />
@@ -192,7 +208,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604217543369</updated>
       <workItem from="1604217550677" duration="5982000" />
-      <workItem from="1604541451612" duration="39486000" />
+      <workItem from="1604541451612" duration="41390000" />
+      <workItem from="1604672628880" duration="14148000" />
     </task>
     <task id="LOCAL-00001" summary="Began to do it. I put your interface and classes to test folder.">
       <created>1604217772840</created>
@@ -229,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604640373110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="graphics.jsp is newed!!">
+      <created>1604666697022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604666697022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,72 +276,98 @@
     <MESSAGE value="Something new in the index" />
     <MESSAGE value="I have finished server side. Now we need some css and answer and error page. &#10;The hardest one is graphics.js and jsp, i will try to understand it later!" />
     <MESSAGE value="Set some tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set some tables" />
+    <MESSAGE value="graphics.jsp is newed!!" />
+    <MESSAGE value="I put data to servletContext because of our variant.And some changes i dont remember!" />
+    <option name="LAST_COMMIT_MESSAGE" value="I put data to servletContext because of our variant.And some changes i dont remember!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1636" y="257" key="#Inspections" timestamp="1604633060093">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1636" y="257" key="#Inspections/0.0.2752.1112@0.0.2752.1112" timestamp="1604633060093" />
-    <state x="1436" y="191" width="1089" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604240856957">
+    <state x="1461" y="149" key="#Project_Structure" timestamp="1604718221138">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1436" y="191" width="1089" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604240856957" />
-    <state x="1578" y="103" key="CommitChangelistDialog2" timestamp="1604640368386">
+    <state x="1461" y="149" key="#Project_Structure/0.0.2752.1112@0.0.2752.1112" timestamp="1604718221138" />
+    <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604733359536">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604640368386" />
+    <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604733359536" />
+    <state x="1578" y="103" key="CommitChangelistDialog2" timestamp="1604752192367">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192367" />
     <state x="1761" y="310" key="FileChooserDialogImpl" timestamp="1604544556260">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1761" y="310" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604544556260" />
-    <state width="678" height="153" key="GridCell.Tab.0.bottom" timestamp="1604581744139">
+    <state width="562" height="261" key="GridCell.Tab.0.bottom" timestamp="1604752192462">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604581744139" />
-    <state width="678" height="153" key="GridCell.Tab.0.center" timestamp="1604581744139">
+    <state width="562" height="261" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
+    <state width="562" height="261" key="GridCell.Tab.0.center" timestamp="1604752192461">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604581744139" />
-    <state width="678" height="153" key="GridCell.Tab.0.left" timestamp="1604581744139">
+    <state width="562" height="261" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192461" />
+    <state width="562" height="261" key="GridCell.Tab.0.left" timestamp="1604752192461">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604581744139" />
-    <state width="678" height="153" key="GridCell.Tab.0.right" timestamp="1604581744139">
+    <state width="562" height="261" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192461" />
+    <state width="562" height="261" key="GridCell.Tab.0.right" timestamp="1604752192462">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604581744139" />
-    <state width="678" height="153" key="GridCell.Tab.1.bottom" timestamp="1604547591022">
+    <state width="562" height="261" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
+    <state width="562" height="261" key="GridCell.Tab.1.bottom" timestamp="1604752192463">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604547591022" />
-    <state width="678" height="153" key="GridCell.Tab.1.center" timestamp="1604547591022">
+    <state width="562" height="261" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
+    <state width="562" height="261" key="GridCell.Tab.1.center" timestamp="1604752192462">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604547591022" />
-    <state width="678" height="153" key="GridCell.Tab.1.left" timestamp="1604547591021">
+    <state width="562" height="261" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
+    <state width="562" height="261" key="GridCell.Tab.1.left" timestamp="1604752192462">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604547591021" />
-    <state width="678" height="153" key="GridCell.Tab.1.right" timestamp="1604547591022">
+    <state width="562" height="261" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192462" />
+    <state width="562" height="261" key="GridCell.Tab.1.right" timestamp="1604752192463">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="678" height="153" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604547591022" />
+    <state width="562" height="261" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
+    <state width="562" height="261" key="GridCell.Tab.2.bottom" timestamp="1604752192464">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="562" height="261" key="GridCell.Tab.2.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192464" />
+    <state width="562" height="261" key="GridCell.Tab.2.center" timestamp="1604752192463">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="562" height="261" key="GridCell.Tab.2.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
+    <state width="562" height="261" key="GridCell.Tab.2.left" timestamp="1604752192463">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="562" height="261" key="GridCell.Tab.2.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
+    <state width="562" height="261" key="GridCell.Tab.2.right" timestamp="1604752192463">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="562" height="261" key="GridCell.Tab.2.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192463" />
     <state x="1549" y="304" width="851" height="592" key="NewModule_or_Project.wizard" timestamp="1604544569306">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1549" y="304" width="851" height="592" key="NewModule_or_Project.wizard/0.0.2752.1112@0.0.2752.1112" timestamp="1604544569306" />
-    <state x="1461" y="110" key="SettingsEditor" timestamp="1604240838325">
+    <state x="1461" y="110" key="SettingsEditor" timestamp="1604672461928">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1461" y="110" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604240838325" />
-    <state x="1573" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604596065628">
+    <state x="1461" y="110" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604672461928" />
+    <state x="1573" y="268" key="Vcs.Push.Dialog.v2" timestamp="1604752131984">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1573" y="268" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604596065628" />
-    <state x="1572" y="405" width="672" height="678" key="search.everywhere.popup" timestamp="1604582478395">
+    <state x="1573" y="268" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752131984" />
+    <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604673620802">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1572" y="405" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1604582478395" />
+    <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604673620802" />
+    <state x="1572" y="405" width="672" height="678" key="search.everywhere.popup" timestamp="1604673666915">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1572" y="405" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1604673666915" />
   </component>
 </project>

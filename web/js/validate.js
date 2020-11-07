@@ -1,8 +1,8 @@
 // validateY and validateX just for index, not for graphics!
 
 function validateY(){
-    if (y === undefined) {
-        alert("Please choose the Y");
+    if (y == undefined) {
+        alert("Please enter the Y");
         return false;
     } else if (!isNumeric(y)) {
         alert("Y should be a number");
@@ -25,13 +25,11 @@ function validateX() {
     }
 }
 
-function validateR(){  // method "inArray" is in Jquery. If the element in the array, will return index, else return -1.
-    let rValue = [1, 1.5, 2, 2.5, 3];
-    let index = $.inArray(r,rValue);
-    if (index >= 0){
+function validateR(){
+    if (r==1.0 || r==1.5 || r==2.0 || r==2.5 || r==3.0){
         return true;
     }else {
-        alert('Please choose a R-value instead of sending some bad value!!!')
+        alert('Please choose a R-value instead of sending some bad value!!');
         return false;
     }
 

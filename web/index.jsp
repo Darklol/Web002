@@ -12,11 +12,15 @@
 <link rel="stylesheet" href="css/main.css">
 <%--<script src="js/jquery.js"></script>--%>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/validate.js"></script>
 <script src="js/home_page.js"></script>
 <script src="js/graphics.js"></script>
+<script src="js/table.js"></script>
+
 </head>
 <jsp:include page="partial/header.jsp"/>
 <form id="data-form" method="get" name="dataForm">
+    <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div>
         <div>
@@ -46,11 +50,11 @@
             <label>R value:</label>
         </div>
         <select id="r-value">
-            <option selected>1</option>
+            <option selected>1.0</option>
             <option>1.5</option>
-            <option>2</option>
+            <option>2.0</option>
             <option>2.5</option>
-            <option>3</option>
+            <option>3.0</option>
         </select>
     </div>
 
