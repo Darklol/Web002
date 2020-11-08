@@ -24,17 +24,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="I put data to servletContext because of our variant.And some changes i dont remember!">
+    <list default="true" id="86cd6f03-b042-4309-93e1-ab5ea090ec2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/graphics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +61,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jgEscUnj8nH4ZUglGYwA6HgUyc" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -78,9 +80,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -95,7 +97,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JBoss Server.JBoss 21.0.0.Final">
-    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (Oracle)" nameIsGenerated="true">
+    <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -181,7 +183,37 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="" />
@@ -247,12 +279,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Began to do it. I put your interface and classes to test folder." />
@@ -268,9 +301,14 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1636" y="257" key="#Inspections/0.0.2752.1112@0.0.2752.1112" timestamp="1604633060093" />
-    <state x="1461" y="149" key="#Project_Structure" timestamp="1604718221138">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state x="499" y="10" key="#JBoss_21.0.0.Final" timestamp="1604828372325">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="499" y="10" key="#JBoss_21.0.0.Final/0.0.1536.824@0.0.1536.824" timestamp="1604828372325" />
+    <state x="722" y="110" key="#Project_Structure" timestamp="1604828382566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="110" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604828382566" />
     <state x="1461" y="149" key="#Project_Structure/0.0.2752.1112@0.0.2752.1112" timestamp="1604718221138" />
     <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604733359536">
       <screen x="0" y="0" width="2752" height="1112" />
@@ -288,21 +326,25 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1761" y="310" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604544556260" />
-    <state width="429" height="215" key="GridCell.Tab.0.bottom" timestamp="1604806730641">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1604828462305">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604828462305" />
     <state width="429" height="215" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730641" />
-    <state width="429" height="215" key="GridCell.Tab.0.center" timestamp="1604806730640">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1604828462305">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604828462305" />
     <state width="429" height="215" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
-    <state width="429" height="215" key="GridCell.Tab.0.left" timestamp="1604806730640">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1604828462305">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604828462305" />
     <state width="429" height="215" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
-    <state width="429" height="215" key="GridCell.Tab.0.right" timestamp="1604806730640">
-      <screen x="0" y="0" width="2752" height="1112" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1604828462305">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604828462305" />
     <state width="429" height="215" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
     <state width="643" height="261" key="GridCell.Tab.1.bottom" timestamp="1604806717654">
       <screen x="0" y="0" width="2752" height="1112" />
@@ -348,6 +390,10 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1573" y="268" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752131984" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604828435677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604828435677" />
     <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604673620802">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
