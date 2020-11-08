@@ -21,7 +21,7 @@
 </head>
 <body>
 <jsp:include page="partial/header.jsp"/>
-<form id="data-form" method="get" name="dataForm">
+<form id="data-form" method="get" name="dataForm" action="controller">
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div class="value-space">
