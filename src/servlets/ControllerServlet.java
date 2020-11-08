@@ -22,8 +22,6 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
-            double x = Double.parseDouble(req.getParameter("x-value"));
-            double y = Double.parseDouble(req.getParameter("y-value"));
             double r = Double.parseDouble(req.getParameter("r-value"));
 //            System.out.println(checkData(r));
             if (r==1.0 || r==1.5 || r==2.0 || r==2.5 || r==3.0) {
@@ -33,8 +31,8 @@ public class ControllerServlet extends HttpServlet {
 //                getServletContext().getRequestDispatcher("/check_area").forward(req, resp);
                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
             }
-        } catch (NumberFormatException | NullPointerException e) {
-            getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
+        } catch (NumberFormatException | NullPointerException | ServletException e) {
+            e.printStackTrace();
         }
     }
 

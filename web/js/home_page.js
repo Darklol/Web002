@@ -34,6 +34,25 @@ window.onload = function () {
         }
     })
 
+    // $('#submit-button').click(function () {
+    //     r = $('#r-value').val();
+    //     y = $('#y-value').val().replace(",", ".");
+    //     if (validateR() && validateY() && validateX()) {
+    //
+    //         sendRequest(x, y, r);
+    //     }
+    // })
+
+    // function sendRequest(x, y, r) {
+    //
+    //     let request = "x=" + x + "&y=" + y + "&r=" + r; // todo
+    //
+    //     console.log("request= " + request);
+    //
+    //     window.location.href = '/Web002_war_exploded/?' + request;
+    //
+    // }
+
 
 }
 
