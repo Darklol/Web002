@@ -32,8 +32,10 @@ public class AreaCheckServlet extends HttpServlet {
         qss = qss == null ? new QueryStorageService() : qss;
 
         qss.addQuery(query);
+
         context.setAttribute("qss", qss);
 
+        req.getSession().setAttribute("qss",qss);
         resp.sendRedirect("/answer.jsp");
     }
     @Override

@@ -25,18 +25,21 @@ public class ControllerServlet extends HttpServlet {
             double x = Double.parseDouble(req.getParameter("x-value"));
             double y = Double.parseDouble(req.getParameter("y-value"));
             double r = Double.parseDouble(req.getParameter("r-value"));
-            if (checkData(r)) {
-                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
-            } else {
+//            System.out.println(checkData(r));
+            if (r==1.0 || r==1.5 || r==2.0 || r==2.5 || r==3.0) {
                 getServletContext().getRequestDispatcher("/check_area").forward(req, resp);
+//                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
+            } else {
+//                getServletContext().getRequestDispatcher("/check_area").forward(req, resp);
+               getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
             }
         } catch (NumberFormatException | NullPointerException e) {
             getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
         }
     }
 
-    private boolean checkData(double r) {//We only need to check R, because x and y can be any num.
-        double[] rValue = new double[]{1, 1.5, 2, 2.5, 3};
-        return Arrays.asList(rValue).contains(r);
-    }
+//    private boolean checkData(double r) {//We only need to check R, because x and y can be any num.
+//        double[] rValue = new double[]{1.0, 1.5, 2.0, 2.5, 3.0};
+//        return Arrays.asList(rValue).contains(r);
+//    }
 }

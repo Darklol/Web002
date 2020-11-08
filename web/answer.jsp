@@ -22,6 +22,8 @@
 </head>
 <body>
 <jsp:include page="partial/header.jsp"/>
+
+<jsp:include page="partial/graphics.jsp"/>
 <div class="table">
     <div class="table-header">
         <div>X</div>
@@ -31,7 +33,7 @@
         <div>Result</div>
     </div>
     <div class="table-content">
-        <jsp:useBean id="qss" scope="session" class="models.QueryStorageService"/>
+        <jsp:useBean id="qss" scope="application" class="models.QueryStorageService"/>
         <c:forEach var="query" items="${qss.freshQueries}">
             <div class="table-row">
                 <div>${query.x}</div>

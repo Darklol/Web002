@@ -22,7 +22,7 @@ function fromSvgToRY(y, r) {
 
 
 function getRValue() {
-    const rText = $('input[name="r-value"]').val();
+    const rText = $('#r-value').value();
     let rValue = parseFloat(rText);
 
     // if there is answer page without form
@@ -33,27 +33,21 @@ function getRValue() {
             rValue = DEFAULT_R_VALUE;
         }
     } else {
-        if(!checkR()){
+        if(!validateR()){
             return null;
         }
     }
     return rValue;
 }
 
-function getYValue() {
-    return $('input[name ="y-value"]').val();
-}
 
-function getXValue(){
-    return $('.rainbow-button.hvr-grow.active').text();
-}
 
 function getUrlContext() {
     const link = document.location.href.split('/');
     return link[3];
 }
 
-function clickPlotHandler(e) {
+plot.onclick = function clickPlotHandler(e) {
     const offset = $(this).offset();
     const x = e.pageX - offset.left;
     const y = e.pageY - offset.top;
@@ -64,7 +58,7 @@ function clickPlotHandler(e) {
         const yValue = fromSvgToRY(y, rValue);
 
         $.ajax({
-            type: "POST",
+            type: "GET",
             url: "controller",
             data: {
                 "x-value": xValue,
@@ -82,4 +76,3 @@ function clickPlotHandler(e) {
     }
 }
 
-plot.click(clickPlotHandler);
