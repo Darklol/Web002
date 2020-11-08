@@ -89,7 +89,7 @@ button {
     border: none;
 }
 
-.table-header, .table-content{
+.table-header, .table-row{
     margin: auto;
     background: darkblue;
     font-size: 20px;
@@ -99,6 +99,10 @@ button {
     display: flex;
     color: aliceblue;
     text-align: center;
+}
+
+.table-row {
+    background: rgba(0, 0, 139, 0.5);
 }
 
 .table-header > div:nth-child(1)
@@ -118,9 +122,6 @@ button {
     margin: 2px;
 }
 
-.table-content {
-    background: rgba(0, 0, 139, 0.5);
-}
 
 .table-header > div:nth-child(1)
 , .table-header > div:nth-child(2)
@@ -139,7 +140,7 @@ button {
 }
 
 .table-header > div:last-child,
-.table-row > div:nth-child(4){
+.table-row > div:last-child{
     width: 140px;
     margin: 2px;
 }
