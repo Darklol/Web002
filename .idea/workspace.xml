@@ -24,12 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="I put data to servletContext because of our variant.And some changes i dont remember!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/graphics.js" afterDir="false" />
+    <list default="true" id="59fdbf51-2717-478a-9739-b4a4a8752593" name="Default Changelist" comment="Newest!">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jgEscUnj8nH4ZUglGYwA6HgUyc" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -193,6 +191,7 @@
       <workItem from="1604541451612" duration="41390000" />
       <workItem from="1604672628880" duration="14148000" />
       <workItem from="1604760975867" duration="9666000" />
+      <workItem from="1604826506600" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Began to do it. I put your interface and classes to test folder.">
       <created>1604217772840</created>
@@ -284,6 +283,10 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state width="1822" height="466" key="DebuggerActiveHint/0.0.2752.1112@0.0.2752.1112" timestamp="1604763450838" />
+    <state x="1473" y="272" width="1148" height="648" key="DiffContextDialog" timestamp="1604826926127">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1473" y="272" width="1148" height="648" key="DiffContextDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604826926127" />
     <state x="1761" y="310" key="FileChooserDialogImpl" timestamp="1604544556260">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
