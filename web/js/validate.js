@@ -26,7 +26,7 @@ function validateX() {
 }
 
 function validateR(){
-    if (r===1.0 || r===1.5 || r===2.0 || r===2.5 || r===3.0){
+    if (r==1.0 || r==1.5 || r==2.0 || r==2.5 || r==3.0){
         return true;
     }else {
         alert('Please choose a R-value instead of sending some bad value!!');
