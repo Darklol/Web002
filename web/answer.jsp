@@ -17,12 +17,13 @@
     <title>Results</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/home_page.js"></script>
     <script src="js/graphics.js"></script>
 </head>
 <body>
 <jsp:include page="partial/header.jsp"/>
-
+<form id="data-form">
 <jsp:include page="partial/graphics.jsp"/>
 <div class="table">
     <div class="table-header">
@@ -40,7 +41,7 @@
                 <div>${query.y}</div>
                 <div>${query.r}</div>
                 <div>${qss.dateFormat.format(query.queryTime)}</div>
-                    ${query.result ? "<div style=\"color: green\">In the area</div>" :
+                    ${query.result ? "<div style=\"color: lawngreen\">In the area</div>" :
                             "<div style=\"color: red\">Outside the area</div>"}
             </div>
         </c:forEach>
@@ -48,9 +49,8 @@
 </div>
 
 <div id="home-button">
-    <a href="index.jsp">To Home Page</a>
+    <a class="button" href="index.jsp">Home page</a>
 </div>
-</div>
-
+</form>
 </body>
 </html>
