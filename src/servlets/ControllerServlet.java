@@ -22,22 +22,19 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
-            double r = Double.parseDouble(req.getParameter("r-value"));
-//            System.out.println(checkData(r));
+            System.out.println("****************\n" +
+                    "req = "+ req+"\n" +
+                    "req.getParameter = " + req.getParameter("r-value")+ "\n" +
+                    "*************************");
+            double r = Double.parseDouble(req.getParameter("r"));
             if (r==1.0 || r==1.5 || r==2.0 || r==2.5 || r==3.0) {
                 getServletContext().getRequestDispatcher("/check_area").forward(req, resp);
-//                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
             } else {
-//                getServletContext().getRequestDispatcher("/check_area").forward(req, resp);
                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
             }
         } catch (NumberFormatException | NullPointerException | ServletException e) {
-            e.printStackTrace();
+            getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
         }
     }
 
-//    private boolean checkData(double r) {//We only need to check R, because x and y can be any num.
-//        double[] rValue = new double[]{1.0, 1.5, 2.0, 2.5, 3.0};
-//        return Arrays.asList(rValue).contains(r);
-//    }
 }

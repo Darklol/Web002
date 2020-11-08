@@ -10,48 +10,20 @@ window.onload = function () {
     });
 
     $('#submit-button').click(function () {
-        r = $('#r-value').val();
+        r = $('#r-value').children("option:selected").val();
         y = $('#y-value').val().replace(",", ".");
         if (validateR() && validateY() && validateX()) {
-            $.ajax({
-                type: "GET",
-                url: "controller",
-                data: {
-                    "x-value": x,
-                    "y-value": y,
-                    "r-value": r
-                },
-                success: function () {
-                    alert('Successfully')
-                    if (getUrlContext() !== "answer.jsp") {
-                        document.location.href = "answer.jsp";
-                    } else {
-                        document.location.reload();
-                    }
-                }
-
-            })
+            sendSecretForm();
         }
     })
 
-    // $('#submit-button').click(function () {
-    //     r = $('#r-value').val();
-    //     y = $('#y-value').val().replace(",", ".");
-    //     if (validateR() && validateY() && validateX()) {
-    //
-    //         sendRequest(x, y, r);
-    //     }
-    // })
+    function sendSecretForm() {
+        $('#x').val(x);
+        $('#y').val(y);
+        $('#r').val(r);
+        $('#secret-form').submit();
+    }
 
-    // function sendRequest(x, y, r) {
-    //
-    //     let request = "x=" + x + "&y=" + y + "&r=" + r; // todo
-    //
-    //     console.log("request= " + request);
-    //
-    //     window.location.href = '/Web002_war_exploded/?' + request;
-    //
-    // }
 
 
 }

@@ -18,12 +18,10 @@ import java.util.Date;
 public class AreaCheckServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
-        double x = Double.parseDouble(req.getParameter("x-value"));
-        double y = Double.parseDouble(req.getParameter("y-value"));
-        double r = Double.parseDouble(req.getParameter("r-value"));
-        System.out.println("**************************\n" +
-                "x = "+x+" y = "+y+" r = "+r+"\n" +
-                "********************************");
+        double x = Double.parseDouble(req.getParameter("x"));
+        double y = Double.parseDouble(req.getParameter("y"));
+        double r = Double.parseDouble(req.getParameter("r"));
+
         boolean result = getResult(x, y, r);
         Date currentTime = new Date();
 
@@ -40,10 +38,11 @@ public class AreaCheckServlet extends HttpServlet {
 
         context.setAttribute("qss", qss);
 
-//        req.getSession().setAttribute("qss",qss);
+        req.getSession().setAttribute("qss",qss);
         RequestDispatcher view = req.getRequestDispatcher("answer.jsp");
         view.forward(req, resp);
-//        resp.forward("/answer.jsp");
+        //        req.getSession().setAttribute("qss",qss);
+//        resp.sendRedirect("/answer.jsp");
     }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {

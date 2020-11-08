@@ -21,7 +21,7 @@
 </head>
 <body>
 <jsp:include page="partial/header.jsp"/>
-<form id="data-form" method="get" name="dataForm" action="controller">
+<form id="data-form" method="get" name="dataForm">
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div class="value-space">
@@ -45,7 +45,7 @@
         <div>
             <label>Y value:</label>
         </div>
-        <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
+        <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value">
     </div>
     <%--    R part--%>
     <div>
@@ -61,7 +61,7 @@
         </select>
     </div>
 
-    <input id="submit-button" type="submit" value="Submit">
+    <button id="submit-button" type="button">Submit</button>
         <div class="table">
             <div class="table-header">
                 <div>X</div>
@@ -86,6 +86,11 @@
             </div>
         </div>
     </div>
+</form>
+<form id="secret-form" hidden action="controller">
+    <input type="text" name="x" id="x">
+    <input type="text" name="y" id="y">
+    <input type="text" name="r" id="r">
 </form>
 </body>
 </html>
