@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>WebLab2</title>
+<link rel="stylesheet" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/home_page.js"></script>
+<script src="js/graphics.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="github">
+        <a href="https://github.com/Darklol/Web002">Github</a>
+    </div>
+    <div id="right-header">
+        <div>Kuznetsov Alexander and Huang Siyuan P3211 Variant 4557</div>
+    </div>
+</div>
+<form id="data-form" method="get" name="dataForm">
+    <div class="value-space">
+        <div>
+            <label>X value:</label>
+        </div>
+        <div class="buttons">
+        <button type="button" class="X-button" name="x-value">-5</button>
+        <button type="button" class="X-button" name="x-value">-4</button>
+        <button type="button" class="X-button" name="x-value">-3</button>
+        <button type="button" class="X-button" name="x-value">-2</button>
+        <button type="button" class="X-button" name="x-value">-1</button>
+        <button type="button" class="X-button" name="x-value">0</button>
+        <button type="button" class="X-button" name="x-value">1</button>
+        <button type="button" class="X-button" name="x-value">2</button>
+        <button type="button" class="X-button" name="x-value">3</button>
+        </div>
+    </div>
+    <div class="value-space">
+        <div>
+            <label>Y value:</label>
+        </div>
+        <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
+    </div>
+    <div class="value-space">
+        <div>
+            <label>R value:</label>
+        </div>
+        <select id="r-value">
+            <option selected>1</option>
+            <option>1.5</option>
+            <option>2</option>
+            <option>2.5</option>
+            <option>3</option>
+        </select>
+    </div>
+
+    <input id="submit-button" type="submit" value="Submit">
+    <div class="table">
+        <div class="table-header">
+            <div>X</div>
+            <div>Y</div>
+            <div>R</div>
+            <div>Current time</div>
+            <div>Result</div>
+        </div>
+        <div class="table-content">
+
+    </div>
+    </div>
+
+</form>
+</body>
+</html>

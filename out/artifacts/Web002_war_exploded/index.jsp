@@ -8,7 +8,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
 <title>WebLab2</title>
 <link rel="stylesheet" href="css/main.css">
 <%--<script src="js/jquery.js"></script>--%>
@@ -19,13 +18,11 @@
 <script src="js/table.js"></script>
 
 </head>
-<body>
 <jsp:include page="partial/header.jsp"/>
-<form id="data-form" method="get" name="dataForm">
+<form id="data-form" method="get" name="dataForm" action="controller">
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div class="value-space">
-    <div>
         <div>
             <label>X value:</label>
         </div>
@@ -41,14 +38,14 @@
         <button type="button" class="X-button" name="x-value">3</button>
     </div>
     <%--    Y part--%>
-    <div>
+    <div class="value-space">
         <div>
             <label>Y value:</label>
         </div>
         <input type="text" placeholder="(-3,3)" maxlength="16" id="y-value" >
     </div>
     <%--    R part--%>
-    <div>
+    <div class="value-space">
         <div>
             <label>R value:</label>
         </div>
@@ -79,13 +76,13 @@
                         <div>${query.y}</div>
                         <div>${query.r}</div>
                         <div>${qss.dateFormat.format(query.queryTime)}</div>
-                            ${query.result ? "<div style=\"color: lawngreen\">In the area</div>" :
+                            ${query.result ? "<div style=\"color: green\">In the area</div>" :
                                     "<div style=\"color: red\">Outside the area</div>"}
                     </div>
                 </c:forEach>
             </div>
         </div>
-    </div>
+
 </form>
 </body>
 </html>
