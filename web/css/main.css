@@ -108,30 +108,14 @@ button, .button, .button:visited {
 
 .table-header > div:nth-child(1)
 , .table-header > div:nth-child(2)
-, .table-header > div:nth-child(3){
-    width: 40px;
-    margin: 2px;
-}
-
-.table-header > div:nth-child(4) {
-    width: 200px;
-    margin: 2px;
-}
-
-.table-header > div:last-child{
-    width: 140px;
-    margin: 2px;
-}
-
-
-.table-header > div:nth-child(1)
-, .table-header > div:nth-child(2)
 , .table-header > div:nth-child(3)
 , .table-row > div:nth-child(1)
 , .table-row > div:nth-child(2)
 , .table-row > div:nth-child(3){
     width: 40px;
     margin: 2px;
+    position:relative;
+    overflow:hidden;
 }
 
 .table-header > div:nth-child(4),

@@ -41,7 +41,6 @@ function getUrlContext() {
 }
 
 function clickPlotHandler(e) {
-    alert('some trifling')
     const offset = $(this).offset();
     const x = e.pageX - offset.left;
     const y = e.pageY - offset.top;
@@ -62,22 +61,6 @@ function clickPlotHandler(e) {
             $('#secret-form').submit();
         }
     }
-    // $.ajax({
-    //     type: "GET",
-    //     url: "controller",
-    //     data: {
-    //         "x-value": xValue,
-    //         "y-value": yValue,
-    //         "r-value": rValue
-    //     },
-    //     success: function () {
-    //         if (getUrlContext() !== "answer.jsp") {
-    //             document.location.href = "answer.jsp";
-    //         } else {
-    //             document.location.reload();
-    //         }
-    //     }
-    // })
 
 }
 
@@ -89,7 +72,7 @@ function isNumeric(n) {
 
 function getRfromURL() {
     let params = {};
-    let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+    let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
         params[key] = value;
     });
     return params["r"];
