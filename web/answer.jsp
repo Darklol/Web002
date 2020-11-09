@@ -11,13 +11,18 @@
 <head>
     <title>Results</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<jsp:include page="partial/header.jsp"/>
 <form id="data-form">
-    <jsp:include page="partial/header.jsp"/>
-<jsp:include page="partial/graphics.jsp"/>
+
+    <jsp:include page="partial/graphics.jsp"/>
+    <div id="home-button">
+        <a class="button" href="index.jsp">Home page</a>
+    </div>
     <div class="table">
         <div class="table-header">
             <div>X</div>
@@ -42,9 +47,7 @@
         </div>
     </div>
 
-<div id="home-button">
-    <a class="button" href="index.jsp">Home page</a>
-</div>
+
 </form>
 <form id="secret-form" hidden action="controller">
     <input type="text" name="x" id="x">

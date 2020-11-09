@@ -112,10 +112,8 @@ button, .button, .button:visited {
 , .table-row > div:nth-child(1)
 , .table-row > div:nth-child(2)
 , .table-row > div:nth-child(3){
-    width: 40px;
+    width: 60px;
     margin: 2px;
-    position:relative;
-    overflow:hidden;
 }
 
 .table-header > div:nth-child(4),

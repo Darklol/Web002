@@ -1,6 +1,3 @@
-function anime() {
-    $(".table-content").slideToggle("slow");
-}
 
 function drawPointsFromTableData() {
     $(".table-row").each(function () {
@@ -18,4 +15,3 @@ function drawPointsFromTableData() {
 }
 
 drawPointsFromTableData();
-$(".table-header").click(anime);

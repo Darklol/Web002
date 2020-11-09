@@ -12,17 +12,23 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Date;
 
 @WebServlet("/check_area")
 public class AreaCheckServlet extends HttpServlet {
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+        DecimalFormat format = new DecimalFormat("#0.000");
         double x = Double.parseDouble(req.getParameter("x"));
         double y = Double.parseDouble(req.getParameter("y"));
         double r = Double.parseDouble(req.getParameter("r"));
 
         boolean result = getResult(x, y, r);
+        x = floor(x);
+        y = floor(y);
+        r = floor(r);
         Date currentTime = new Date();
 
         Query query = new Query(x, y, r);
@@ -59,4 +65,9 @@ public class AreaCheckServlet extends HttpServlet {
                (thirdQuarter && (x*x + y*y <= r*r/4)) ||
                (firstQuarter && (y <= -x + r/2));
     }
+
+    private double floor(double d){
+        return d = (double)Math.floor(d*1000)/1000.0;
+    }
+
 }

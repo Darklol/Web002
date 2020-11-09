@@ -12,9 +12,10 @@
 <title>WebLab2</title>
 <link rel="stylesheet" href="css/main.css">
 </head>
+<jsp:include page="partial/header.jsp"/>
 <body>
 <form id="data-form" method="get" name="dataForm">
-    <jsp:include page="partial/header.jsp"/>
+
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div class="value-space">
