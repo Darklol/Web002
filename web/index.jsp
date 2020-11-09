@@ -22,7 +22,6 @@
         <div>
             <label>X value:</label>
         </div>
-        <%--There need css for class "X-button" and "active"--%>
         <button type="button" class="X-button" name="x-value">-5</button>
         <button type="button" class="X-button" name="x-value">-4</button>
         <button type="button" class="X-button" name="x-value">-3</button>

@@ -22,18 +22,18 @@ function fromSvgToRY(y, r) {
 
 
 function getRValue() {
-    const rText = $('#r-value').value();
+    const rText = $('#r-value').val();
     let rValue = parseFloat(rText);
 
     // if there is answer page without form
     if (rText === undefined) {
         rValue = parseFloat($(".table-row").first().find(">:nth-child(3)").text());
         // if somebody send get request to /controller then table will be empty
-        if(isNaN(rValue)){
+        if (isNaN(rValue)) {
             rValue = 2;
         }
     } else {
-        if(!validateR()){
+        if (!validateR()) {
             return null;
         }
     }
@@ -41,39 +41,50 @@ function getRValue() {
 }
 
 
-
 function getUrlContext() {
     const link = document.location.href.split('/');
     return link[3];
 }
 
-plot.click = function clickPlotHandler(e) {
+function clickPlotHandler(e) {
+    alert('some trifling')
     const offset = $(this).offset();
     const x = e.pageX - offset.left;
     const y = e.pageY - offset.top;
-    alert(x+y);
+    // alert(x+y);
     const rValue = getRValue();
 
-    if(rValue!==null) {
+    if (rValue !== null) {
         const xValue = fromSvgToRX(x, rValue);
         const yValue = fromSvgToRY(y, rValue);
 
-        $.ajax({
-            type: "GET",
-            url: "controller",
-            data: {
-                "x-value": xValue,
-                "y-value": yValue,
-                "r-value": rValue
-            },
-            success: function () {
-                if (getUrlContext() !== "answer.jsp") {
-                    document.location.href = "answer.jsp";
-                } else {
-                    document.location.reload();
-                }
-            }
-        })
+        sendSecretForm();
+        // document.location.reload();
+        function sendSecretForm() {
+            $('#x').val(xValue);
+            $('#y').val(yValue);
+            $('#r').val(r);
+            $('#secret-form').submit();
+        }
     }
+    // $.ajax({
+    //     type: "GET",
+    //     url: "controller",
+    //     data: {
+    //         "x-value": xValue,
+    //         "y-value": yValue,
+    //         "r-value": rValue
+    //     },
+    //     success: function () {
+    //         if (getUrlContext() !== "answer.jsp") {
+    //             document.location.href = "answer.jsp";
+    //         } else {
+    //             document.location.reload();
+    //         }
+    //     }
+    // })
+
 }
+
+plot.click(clickPlotHandler);
 

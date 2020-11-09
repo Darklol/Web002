@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <div class="graphics">
-    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" id="graphicsPart">
 
 <%-- Draw axis --%>
         <%-- Draw x and y axis line --%>
