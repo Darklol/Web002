@@ -7,10 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 @WebServlet("/controller")
 public class ControllerServlet extends HttpServlet {
@@ -29,6 +25,7 @@ public class ControllerServlet extends HttpServlet {
                getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
             }
         } catch (NumberFormatException | NullPointerException | ServletException e) {
+            System.out.println(e.toString());
             getServletContext().getRequestDispatcher("/error.jsp").forward(req, resp);
         }
     }

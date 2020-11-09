@@ -22,7 +22,16 @@ function fromSvgToRY(y, r) {
 
 
 function getRValue() {
-        return $('#r-value').children("option:selected").val();
+    const rText = $('#r-value').children("option:selected").val();
+    let rValue = parseFloat(rText);
+
+    // if there is answer page without form
+    if (rText === undefined) {
+        rValue = parseFloat($(".table-row").first().find(">:nth-child(3)").text());
+        // if somebody send get request to /controller then table will be empty
+
+    }
+    return rValue;
 }
 
 

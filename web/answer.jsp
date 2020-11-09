@@ -49,10 +49,8 @@
 <form id="secret-form" hidden action="controller">
     <input type="text" name="x" id="x">
     <input type="text" name="y" id="y">
+    <input type="text" name="r" id="r">
 
-    <jsp:useBean id="qss" scope="session" class="models.QueryStorageService"/>
-    ${qss.updateStatuses()}
-    <div id="r-value">${qss.queries.first.x}</div>
 </form>
 <script src="js/jquery.js"></script>
 <%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>--%>
