@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Web002:war exploded" />
+      <artifact name="Web002:Web2 exploded" />
     </artifacts-to-build>
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86cd6f03-b042-4309-93e1-ab5ea090ec2f" name="Default Changelist" comment="rounding numbers in back-end">
+    <list default="true" id="3963e3e1-e42a-4500-b708-52c0494dd621" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Web002_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Web002_Web2_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/answer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/graphics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/partial/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/partial/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Web002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/models/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/models/QueryStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/img/1604200124(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/partial/header.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,72 +30,36 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1jgEscUnj8nH4ZUglGYwA6HgUyc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1k4dsmQrYp9JNzZXxcBqcIUZvV1" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\src\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\js" />
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web\partial" />
-      <recent name="C:\Users\TheHs\Documents\GitHub\Web002\web" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JBoss Server.JBoss 21.0.0.Final">
+  <component name="RunManager">
     <configuration name="JBoss 21.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 21.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Web002_Web2_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Web002:war exploded">
+        <artifact name="Web002:Web2 exploded">
           <settings />
         </artifact>
       </deployment>
@@ -124,7 +73,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52806" />
+        <option name="DEBUG_PORT" value="49729" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -174,185 +123,45 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Web002:war exploded" />
+          <artifact name="Web002:Web2 exploded" />
         </option>
       </method>
     </configuration>
-    <configuration name="index.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Web002_war_exploded/index.jsp">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.index.jsp" />
-      <item itemvalue="JBoss Server.JBoss 21.0.0.Final" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-        <serviceView>
-          <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
           </treeState>
-          <option name="isSelected" value="true" />
-          <option name="viewType" value="group" />
-          <option name="roots">
-            <list>
-              <ServiceState>
-                <option name="path">
-                  <list>
-                    <option value="Run Dashboard" />
-                    <option value="JBossConfiguration" />
-                  </list>
-                </option>
-                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
-              </ServiceState>
-            </list>
-          </option>
         </serviceView>
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="86cd6f03-b042-4309-93e1-ab5ea090ec2f" name="Default Changelist" comment="" />
-      <created>1604217543369</created>
+      <changelist id="3963e3e1-e42a-4500-b708-52c0494dd621" name="Default Changelist" comment="" />
+      <created>1604964007292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604217543369</updated>
-      <workItem from="1604217550677" duration="5982000" />
-      <workItem from="1604541451612" duration="41390000" />
-      <workItem from="1604672628880" duration="14148000" />
-      <workItem from="1604760975867" duration="9666000" />
-      <workItem from="1604828424630" duration="1186000" />
-      <workItem from="1604842796481" duration="1435000" />
-      <workItem from="1604844317336" duration="2067000" />
-      <workItem from="1604846408554" duration="12111000" />
-      <workItem from="1604860297797" duration="2120000" />
-      <workItem from="1604923368925" duration="354000" />
-      <workItem from="1604927100369" duration="250000" />
-      <workItem from="1604927382467" duration="2000" />
-      <workItem from="1604936791315" duration="15555000" />
+      <updated>1604964007292</updated>
+      <workItem from="1604964010556" duration="1387000" />
     </task>
-    <task id="LOCAL-00001" summary="Began to do it. I put your interface and classes to test folder.">
-      <created>1604217772840</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604217772840</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Began to do it. I put your interface and classes to test folder.">
-      <created>1604408963444</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604408963444</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Something new in the index">
-      <created>1604408999396</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604408999396</updated>
-    </task>
-    <task id="LOCAL-00004" summary="I have finished server side. Now we need some css and answer and error page. &#10;The hardest one is graphics.js and jsp, i will try to understand it later!">
-      <created>1604596056253</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604596056253</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Set some tables">
-      <created>1604640373110</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604640373110</updated>
-    </task>
-    <task id="LOCAL-00006" summary="graphics.jsp is newed!!">
-      <created>1604666697022</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1604666697022</updated>
-    </task>
-    <task id="LOCAL-00007" summary="css added (again)">
-      <created>1604828563265</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1604828563265</updated>
-    </task>
-    <task id="LOCAL-00008" summary="stable (not working) release">
-      <created>1604843164133</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1604843164133</updated>
-    </task>
-    <task id="LOCAL-00009" summary="SEEMS TO BE WORKING">
-      <created>1604849161621</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1604849161621</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added secret form&#10;IT IS WORKING NOW">
-      <created>1604854275853</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1604854275853</updated>
-    </task>
-    <task id="LOCAL-00011" summary="css fixed for answer">
-      <created>1604861871414</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604861871414</updated>
-    </task>
-    <task id="LOCAL-00012" summary="css for answer fixed again">
-      <created>1604862403088</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1604862403088</updated>
-    </task>
-    <task id="LOCAL-00013" summary="graph working (but no in answer page)">
-      <created>1604943706306</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1604943706306</updated>
-    </task>
-    <task id="LOCAL-00014" summary="table fixed with too long numbers">
-      <created>1604950117560</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1604950117560</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,178 +172,60 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Began to do it. I put your interface and classes to test folder." />
-    <MESSAGE value="Something new in the index" />
-    <MESSAGE value="I have finished server side. Now we need some css and answer and error page. &#10;The hardest one is graphics.js and jsp, i will try to understand it later!" />
-    <MESSAGE value="Set some tables" />
-    <MESSAGE value="graphics.jsp is newed!!" />
-    <MESSAGE value="I put data to servletContext because of our variant.And some changes i dont remember!" />
-    <MESSAGE value="css added (again)" />
-    <MESSAGE value="stable (not working) release" />
-    <MESSAGE value="SEEMS TO BE WORKING" />
-    <MESSAGE value="added secret form&#10;IT IS WORKING NOW" />
-    <MESSAGE value="css fixed for answer" />
-    <MESSAGE value="css for answer fixed again" />
-    <MESSAGE value="graph working (but no in answer page)" />
-    <MESSAGE value="table fixed with too long numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="table fixed with too long numbers" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1636" y="257" key="#Inspections" timestamp="1604633060093">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1636" y="257" key="#Inspections/0.0.2752.1112@0.0.2752.1112" timestamp="1604633060093" />
-    <state x="499" y="10" key="#JBoss_21.0.0.Final" timestamp="1604828372325">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604964521207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="10" key="#JBoss_21.0.0.Final/0.0.1536.824@0.0.1536.824" timestamp="1604828372325" />
-    <state x="722" y="110" key="#Project_Structure" timestamp="1604828382566">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604964521207" />
+    <state x="568" y="319" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1604964484193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="110" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604828382566" />
-    <state x="1461" y="149" key="#Project_Structure/0.0.2752.1112@0.0.2752.1112" timestamp="1604718221138" />
-    <state x="786" y="142" width="750" height="652" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604951845261">
+    <state x="568" y="319" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1604964484193" />
+    <state x="339" y="6" key="CommitChangelistDialog2" timestamp="1604966021019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="786" y="142" width="750" height="652" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604951845261" />
-    <state x="1436" y="191" width="1089" height="879" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604733359536" />
-    <state x="550" y="0" key="CommitChangelistDialog2" timestamp="1604955858582">
+    <state x="339" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604966021019" />
+    <state x="549" y="105" key="FileChooserDialogImpl" timestamp="1604964483249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="550" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604955858582" />
-    <state x="1578" y="103" key="CommitChangelistDialog2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752192367" />
-    <state width="1822" height="466" key="DebuggerActiveHint" timestamp="1604763450838">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state width="1822" height="466" key="DebuggerActiveHint/0.0.2752.1112@0.0.2752.1112" timestamp="1604763450838" />
-    <state x="294" y="119" key="DiffContextDialog" timestamp="1604950135886">
+    <state x="549" y="105" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604964483249" />
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom" timestamp="1604965916307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="294" y="119" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1604950135886" />
-    <state x="1761" y="310" key="FileChooserDialogImpl" timestamp="1604544556260">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1761" y="310" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604544556260" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1604955943857">
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
+    <state width="1023" height="210" key="GridCell.Tab.0.center" timestamp="1604965916307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604955943857" />
-    <state width="429" height="215" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730641" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1604955943857">
+    <state width="1023" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
+    <state width="1023" height="210" key="GridCell.Tab.0.left" timestamp="1604965916306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604955943857" />
-    <state width="429" height="215" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1604955943857">
+    <state width="1023" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604965916306" />
+    <state width="1023" height="210" key="GridCell.Tab.0.right" timestamp="1604965916307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604955943857" />
-    <state width="429" height="215" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1604955943857">
+    <state width="1023" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
+    <state x="439" y="111" key="NewModule_or_Project.wizard" timestamp="1604964358779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604955943857" />
-    <state width="429" height="215" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604806730640" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1604955943721">
+    <state x="439" y="111" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1604964358779" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1604964498179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1604955943721">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604964498179" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604964010781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1604955943721">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604964010781" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604964233892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1604955943721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.2.bottom" timestamp="1604955943721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.2.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.2.center" timestamp="1604955943721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.2.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.2.left" timestamp="1604955943721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.2.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state width="1493" height="260" key="GridCell.Tab.2.right" timestamp="1604955943721">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="260" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604955943721" />
-    <state width="643" height="261" key="GridCell.Tab.2.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604806717654" />
-    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1604948640482">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604948640482" />
-    <state x="1549" y="304" width="851" height="592" key="NewModule_or_Project.wizard" timestamp="1604544569306">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1549" y="304" width="851" height="592" key="NewModule_or_Project.wizard/0.0.2752.1112@0.0.2752.1112" timestamp="1604544569306" />
-    <state x="1461" y="110" key="SettingsEditor" timestamp="1604672461928">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1461" y="110" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604672461928" />
-    <state x="722" y="199" key="Vcs.Push.Dialog.v2" timestamp="1604950136684">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="199" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604950136684" />
-    <state x="1573" y="268" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604752131984" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604927101049">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604927101049" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604948574934">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604948574934" />
-    <state x="323" y="148" width="889" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604845037566">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="323" y="148" width="889" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1604845037566" />
-    <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604673620802">
-      <screen x="0" y="0" width="2752" height="1112" />
-    </state>
-    <state x="1376" y="414" width="617" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604673620802" />
-    <state x="877" y="300" width="376" height="503" key="search.everywhere.popup" timestamp="1604861877592">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="877" y="300" width="376" height="503" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604861877592" />
-    <state x="1572" y="405" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1604673666915" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-method">
-          <url>file://$PROJECT_DIR$/src/servlets/AreaCheckServlet.java</url>
-          <line>21</line>
-          <properties class="servlets.AreaCheckServlet" method="doGet">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604964233892" />
   </component>
 </project>
