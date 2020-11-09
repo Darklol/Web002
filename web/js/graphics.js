@@ -22,22 +22,7 @@ function fromSvgToRY(y, r) {
 
 
 function getRValue() {
-    const rText = $('#r-value').val();
-    let rValue = parseFloat(rText);
-
-    // if there is answer page without form
-    if (rText === undefined) {
-        rValue = parseFloat($(".table-row").first().find(">:nth-child(3)").text());
-        // if somebody send get request to /controller then table will be empty
-        if (isNaN(rValue)) {
-            rValue = 2;
-        }
-    } else {
-        if (!validateR()) {
-            return null;
-        }
-    }
-    return rValue;
+        return $('#r-value').children("option:selected").val();
 }
 
 
@@ -59,11 +44,12 @@ function clickPlotHandler(e) {
         const yValue = fromSvgToRY(y, rValue);
 
         sendSecretForm();
+
         // document.location.reload();
         function sendSecretForm() {
             $('#x').val(xValue);
             $('#y').val(yValue);
-            $('#r').val(r);
+            $('#r').val(rValue);
             $('#secret-form').submit();
         }
     }
@@ -88,3 +74,14 @@ function clickPlotHandler(e) {
 
 plot.click(clickPlotHandler);
 
+function isNumeric(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function getRfromURL() {
+    let params = {};
+    let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        params[key] = value;
+    });
+    return params["r"];
+}
