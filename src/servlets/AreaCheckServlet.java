@@ -53,7 +53,7 @@ public class AreaCheckServlet extends HttpServlet {
         //Quarter part
         boolean firstQuarter = x >= 0 && y >= 0;
         boolean thirdQuarter = x <= 0 && y <= 0;
-        boolean fourthQuarter = x <= 0 && y <= 0;
+        boolean fourthQuarter = x >= 0 && y <= 0;
         //check part
         return (fourthQuarter && (x<=r/2) && (y>=-r)) ||
                (thirdQuarter && (x*x + y*y <= r*r/4)) ||

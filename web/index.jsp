@@ -11,17 +11,10 @@
 <head>
 <title>WebLab2</title>
 <link rel="stylesheet" href="css/main.css">
-<%--<script src="js/jquery.js"></script>--%>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/validate.js"></script>
-<script src="js/home_page.js"></script>
-<script src="js/graphics.js"></script>
-<script src="js/table.js"></script>
-
 </head>
 <body>
-<jsp:include page="partial/header.jsp"/>
 <form id="data-form" method="get" name="dataForm">
+    <jsp:include page="partial/header.jsp"/>
     <jsp:include page="partial/graphics.jsp"/>
     <%--    X part--%>
     <div class="value-space">
@@ -92,5 +85,11 @@
     <input type="text" name="y" id="y">
     <input type="text" name="r" id="r">
 </form>
+<script src="js/jquery.js"></script>
+<%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>--%>
+<script src="js/validate.js"></script>
+<script src="js/home_page.js"></script>
+<script src="js/graphics.js"></script>
+<script src="js/table.js"></script>
 </body>
 </html>

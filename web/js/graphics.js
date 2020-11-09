@@ -1,23 +1,23 @@
-const CANVAS_WIDTH = 300;
-const CANVAS_HEIGHT = 300;
-const CANVAS_R_VALUE = 120;
-const DEFAULT_R_VALUE = 2;
-const plot = $(".graphics svg");
+// let CANVAS_WIDTH = 300;
+// let CANVAS_HEIGHT = 300;
+// let CANVAS_R_VALUE = 120;
+// let DEFAULT_R_VALUE = 2;
+let plot = $(".graphics svg");
 
 function fromRToSvgX(x, r) {
-    return x / r * CANVAS_R_VALUE + CANVAS_WIDTH / 2;
+    return x / r * 120 + 300 / 2;
 }
 
 function fromRToSvgY(y, r) {
-    return CANVAS_HEIGHT / 2 - y / r * CANVAS_R_VALUE;
+    return 300 / 2 - y / r * 120;
 }
 
 function fromSvgToRX(x, r) {
-    return r * (x - CANVAS_WIDTH / 2) / CANVAS_R_VALUE;
+    return r * (x - 300 / 2) / 120;
 }
 
 function fromSvgToRY(y, r) {
-    return r * (CANVAS_HEIGHT / 2 - y) / CANVAS_R_VALUE;
+    return r * (300 / 2 - y) / 120;
 }
 
 
@@ -30,7 +30,7 @@ function getRValue() {
         rValue = parseFloat($(".table-row").first().find(">:nth-child(3)").text());
         // if somebody send get request to /controller then table will be empty
         if(isNaN(rValue)){
-            rValue = DEFAULT_R_VALUE;
+            rValue = 2;
         }
     } else {
         if(!validateR()){
@@ -47,10 +47,11 @@ function getUrlContext() {
     return link[3];
 }
 
-plot.onclick = function clickPlotHandler(e) {
+plot.click = function clickPlotHandler(e) {
     const offset = $(this).offset();
     const x = e.pageX - offset.left;
     const y = e.pageY - offset.top;
+    alert(x+y);
     const rValue = getRValue();
 
     if(rValue!==null) {
