@@ -67,7 +67,7 @@ public class AreaCheckServlet extends HttpServlet {
     }
 
     private double floor(double d){
-        return d = (double)Math.floor(d*1000)/1000.0;
+        return Math.floor(d*1000)/1000.0;
     }
 
 }
