@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3963e3e1-e42a-4500-b708-52c0494dd621" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Web002_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Web002_Web2_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Web002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/models/Query.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/classes/models/QueryStorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/img/1604200124(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web002_war_exploded/partial/header.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +130,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -160,8 +149,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604964007292</updated>
-      <workItem from="1604964010556" duration="1387000" />
+      <workItem from="1604964010556" duration="1997000" />
     </task>
+    <task id="LOCAL-00001" summary="NumberFormatException fix">
+      <created>1604966061230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604966061230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +175,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NumberFormatException fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="NumberFormatException fix" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604964521207">
       <screen x="0" y="0" width="1536" height="824" />
@@ -187,30 +188,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="568" y="319" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1604964484193" />
-    <state x="339" y="6" key="CommitChangelistDialog2" timestamp="1604966021019">
+    <state x="339" y="6" key="CommitChangelistDialog2" timestamp="1604966059772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604966021019" />
+    <state x="339" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604966059772" />
     <state x="549" y="105" key="FileChooserDialogImpl" timestamp="1604964483249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="105" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604964483249" />
-    <state width="1023" height="210" key="GridCell.Tab.0.bottom" timestamp="1604965916307">
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom" timestamp="1604966619810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
-    <state width="1023" height="210" key="GridCell.Tab.0.center" timestamp="1604965916307">
+    <state width="1023" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604966619810" />
+    <state width="1023" height="210" key="GridCell.Tab.0.center" timestamp="1604966619810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
-    <state width="1023" height="210" key="GridCell.Tab.0.left" timestamp="1604965916306">
+    <state width="1023" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604966619810" />
+    <state width="1023" height="210" key="GridCell.Tab.0.left" timestamp="1604966619810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604965916306" />
-    <state width="1023" height="210" key="GridCell.Tab.0.right" timestamp="1604965916307">
+    <state width="1023" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604966619810" />
+    <state width="1023" height="210" key="GridCell.Tab.0.right" timestamp="1604966619810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1023" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604965916307" />
+    <state width="1023" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604966619810" />
     <state x="439" y="111" key="NewModule_or_Project.wizard" timestamp="1604964358779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

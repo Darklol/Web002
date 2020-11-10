@@ -20,7 +20,7 @@ public class AreaCheckServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException, NumberFormatException {
-        DecimalFormat format = new DecimalFormat("#0.000");
+
         double x = Double.parseDouble(req.getParameter("x"));
         double y = Double.parseDouble(req.getParameter("y"));
         double r = Double.parseDouble(req.getParameter("r"));
